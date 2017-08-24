@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap {
+	width: 100%;
+	position: relative;
+}
+.wrap .header {
+    /*height: 400px;*/
+    background: rgb(251,251,251);
+}
+.wrap .header .header-icon ul {
+    float: right;
+}
+.wrap .header .header-icon ul li {
+    float: left;
+    padding: 3px 1px 3px 5px;
+}
+.wrap .header .header-icon ul li a {
+    height: 20px;;
+    display: block;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.wrap .header .header-icon ul li a img {
+    padding-top: 2px;
+    padding-right: 3px;
+}
+.wrap .header .header-icon ul li a span {
+    float: right;
+    display: block;
+    margin-top: 3px;
+}
+.wrap .header .header-icon ul li .fb_icon {
+    color: rgb(133,91,238);
+    border-right: 1px solid #000;
+}
+.wrap .header .header-icon ul li .twitter_icon {
+    color: rgb(0,201,255);
+}
+.wrap .clearfix {
+    clear: both;
+}
+.wrap .header-logo {
+    background: #FFF;
+}
+.wrap .header-logo img {
+    padding: 5px;
+}
+.wrap .header-logo .header-menu{
+    float: right;
+}
+.wrap .header-logo .header-menu >ul >li {
+    float: left;
+    padding: 25px 5px 0px 5px;
+}
+.wrap .header-logo .header-menu >ul >li >a {
+    padding: 5px 11px 5px 12px;
+    color: rgb(86,233,132);
+    text-decoration: none;
+}
+.wrap .header-logo .header-menu >ul >li >a:hover {
+    border-bottom: 2px solid rgb(86,233,132);
+}
+.wrap .header-logo .header-menu .produsts-list {
+	z-index: 10;
+	display: none;
+    margin-top: 8px;
+	position: fixed;
+}
+.wrap .header-logo .header-menu .produsts-list li {
+    background: #FFF;
+    padding: 20px 13px 10px 10px;
+}
+.wrap .header-logo .header-menu .produsts-list li a {
+    padding: 5px 5px 5px 5px;
+    color: rgb(86,233,132);
+    text-decoration: none;
+}
+.wrap .header-logo .header-menu .produsts-list li:hover {
+    background: rgba(0,0,0,1);
+}
+.wrap .header-logo .header-menu >ul >li:hover .produsts-list {
+    display: block;
+}
+.wrap .header-logo .header-menu .content-us {
+	z-index: 10;
+	display: none;
+    margin-top: 8px;
+	position: fixed;
+}
+.wrap .header-logo .header-menu .content-us li {
+    background: #FFF;
+    padding: 20px 8px 10px 5px;
+}
+.wrap .header-logo .header-menu .content-us li a {
+    padding: 5px 5px 5px 5px;
+    color: rgb(86,233,132);
+    text-decoration: none;
+}
+.wrap .header-logo .header-menu .content-us li:hover {
+    background: rgba(0,0,0,1);
+}
+.wrap .header-logo .header-menu >ul >li:hover .content-us {
+    display: block;
+}
+
+.wrap .content .content-top {
+	left: 50%;
+	height: 300px;
+	margin-left: -25%;
+	position: absolute;
+	background: rgb(247,185,78);
+}
+.wrap .content .content-top .image {
+	height: 300px;
+	margin: 0 auto;
+}
+.wrap .content .content-top .image1 {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background: rgb(28,171,180);
+}
+.wrap .content .content-top .image2 {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background: rgb(155,162,209);
+}
+.wrap .content .content-top .image3 {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background: rgb(222,231,50);
+}
+.wrap .content .content-middle {
+	height: 300px;
+	background: rgb(54,233,111);
+}
+.wrap .content .content-bottom {
+	height: 300px;
+	background: rgb(146,237,175);
+}
